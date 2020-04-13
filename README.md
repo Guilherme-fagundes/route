@@ -1,4 +1,4 @@
-### RUTE
+### ROUTE
 <p>This class performs the route function</p>
 
 #### Instalation
