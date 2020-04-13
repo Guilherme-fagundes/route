@@ -8,7 +8,7 @@
             "email": "guilhermedev94@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=7.1"
     },
@@ -16,5 +16,11 @@
         "psr-4": {
             "coffeebreaks\\": "coffeebreaks/"
         }
+    },
+    "keywords": [
+       "router", "route", "friendly url"
+    ],
+    "extra": {
+        "frameworks": ["laravel", "symfony", "codeigniter", "zend"]
     }
 }

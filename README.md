@@ -15,7 +15,7 @@ define('INCLUDE_PATH', 'themes'.DIRECTORY_SEPARATOR.THEME);
 ```
 
 
-###.htaccess
+### .htaccess
 
 ```.htaccess
 RewriteEngine On
