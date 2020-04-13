@@ -37,11 +37,41 @@ class Route
 
         $this->url = explode('/', $url);
 
-        @$this->folder = $this->url[0] = ($this->url[0] == '' ? 'index' : $this->url[0]);
-        @$this->file = $this->url[1] = ($this->url[1] ? $this->url[1] : null);
+         $this->url[0] = ($this->url[0] == '' ? 'index' : $this->url[0]);
+         @$this->url[1] = ($this->url[1] ? $this->url[1] : null);
 
-        $this->set();
+         $this->folder = $this->url[0];
+         $this->file = $this->url[1];
+
+
     }
+
+    /**
+     * @return mixed
+     */
+    public function getFolder()
+    {
+        return $this->folder;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getFile()
+    {
+        return $this->file;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getRoute()
+    {
+        $this->set();
+        return $this->route;
+    }
+
+
 
 
     /**
@@ -51,13 +81,13 @@ class Route
     {
 
         if (file_exists(INCLUDE_PATH.DIRECTORY_SEPARATOR. $this->folder.'.php')){
-            require $this->route = INCLUDE_PATH.DIRECTORY_SEPARATOR. $this->folder.'.php';
+             $this->route = INCLUDE_PATH.DIRECTORY_SEPARATOR. $this->folder.'.php';
 
         }elseif(file_exists(INCLUDE_PATH.DIRECTORY_SEPARATOR. $this->folder.DIRECTORY_SEPARATOR.$this->file.'.php')){
-            require $this->route = INCLUDE_PATH.DIRECTORY_SEPARATOR. $this->folder.DIRECTORY_SEPARATOR.$this->file.'.php';
+             $this->route = INCLUDE_PATH.DIRECTORY_SEPARATOR. $this->folder.DIRECTORY_SEPARATOR.$this->file.'.php';
 
         }else{
-            require $this->route = INCLUDE_PATH.DIRECTORY_SEPARATOR.'404.php';
+             $this->route = INCLUDE_PATH.DIRECTORY_SEPARATOR.'404.php';
         }
 
     }
