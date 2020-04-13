@@ -1,0 +1,20 @@
+{
+    "name": "coffeebreaks/route",
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guilherme-fagundes",
+            "email": "guilhermedev94@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "coffeebreaks\\": "coffeebreaks/"
+        }
+    }
+}
