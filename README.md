@@ -1,3 +1,9 @@
+
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/coffeebreaks/route.svg?style=flat-square)](https://packagist.org/packages/coffeebreaks/route)
+[![Latest Stable Version](https://poser.pugx.org/coffeebreaks/route/v)](//packagist.org/packages/coffeebreaks/route)
+[![License](https://poser.pugx.org/coffeebreaks/route/license)](//packagist.org/packages/coffeebreaks/route)
+[![Total Downloads](https://poser.pugx.org/coffeebreaks/route/downloads)](//packagist.org/packages/coffeebreaks/route)
+
 ### ROUTE
 <p>This class performs the route function</p>
 
