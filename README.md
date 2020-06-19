@@ -3,6 +3,7 @@
 [![Latest Stable Version](https://poser.pugx.org/coffeebreaks/route/v)](//packagist.org/packages/coffeebreaks/route)
 [![License](https://poser.pugx.org/coffeebreaks/route/license)](//packagist.org/packages/coffeebreaks/route)
 [![Total Downloads](https://poser.pugx.org/coffeebreaks/route/downloads)](//packagist.org/packages/coffeebreaks/route)
+[![Quality Score](https://img.shields.io/scrutinizer/g/Guilherme-fagundes/route.svg?style=flat-square)](https://scrutinizer-ci.com/g/Guilherme-fagundes/route)
 
 ### ROUTE
 <p>This class performs the route function</p>
