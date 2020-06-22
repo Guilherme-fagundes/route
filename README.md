@@ -1,13 +1,13 @@
 
-[![Source Code](http://img.shields.io/badge/source-coffeebreaks/route-blue.svg?style=flat-square)](https://github.com/Guilherme-fagundes/route)
-[![PHP from Packagist](https://img.shields.io/packagist/php-v/coffeebreaks/route.svg?style=flat-square)](https://packagist.org/packages/coffeebreaks/route)
-[![Latest Stable Version](https://poser.pugx.org/coffeebreaks/route/v)](//packagist.org/packages/coffeebreaks/route)
-[![License](https://poser.pugx.org/coffeebreaks/route/license)](//packagist.org/packages/coffeebreaks/route)
-[![Total Downloads](https://poser.pugx.org/coffeebreaks/route/downloads)](//packagist.org/packages/coffeebreaks/route)
-[![Build](https://img.shields.io/scrutinizer/build/g/Guilherme-fagundes/route.svg?style=flat-square)](https://scrutinizer-ci.com/g/Guilherme-fagundes/route)
-[![Quality Score](https://img.shields.io/scrutinizer/g/Guilherme-fagundes/route.svg?style=flat-square)](https://scrutinizer-ci.com/g/Guilherme-fagundes/route)
+[![Source Code](http://img.shields.io/badge/source-coffeebreaks/friendly-url-blue.svg?style=flat-square)](https://github.com/Guilherme-fagundes/friendly-url)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/coffeebreaks/friendly-url.svg?style=flat-square)](https://packagist.org/packages/coffeebreaks/friendly-url)
+[![Latest Stable Version](https://poser.pugx.org/coffeebreaks/friendly-url/v)](//packagist.org/packages/coffeebreaks/friendly-url)
+[![License](https://poser.pugx.org/coffeebreaks/friendly-url/license)](//packagist.org/packages/coffeebreaks/friendly-url)
+[![Total Downloads](https://poser.pugx.org/coffeebreaks/friendly-url/downloads)](//packagist.org/packages/coffeebreaks/friendly-url)
+[![Build](https://img.shields.io/scrutinizer/build/g/Guilherme-fagundes/friendly-url.svg?style=flat-square)](https://scrutinizer-ci.com/g/Guilherme-fagundes/friendly-url)
+[![Quality Score](https://img.shields.io/scrutinizer/g/Guilherme-fagundes/friendly-url.svg?style=flat-square)](https://scrutinizer-ci.com/g/Guilherme-fagundes/friendly-url)
 
-### ROUTE
+### Friendly Url
 <p>This class performs the route function</p>
 
 #### Instalation
@@ -15,7 +15,7 @@
 composer require coffeebreaks/route
 ```
 
-### Config.php
+#### Config.php
 
 ```php
 define('HOME', ""); // Base URI

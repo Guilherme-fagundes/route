@@ -5,10 +5,10 @@ namespace coffeebreaks;
 
 
 /**
- * Class Route
+ * Class FriendlyUrl
  * @package coffeebreaks
  */
-class Route
+class FriendlyUrl
 {
     /**
      * @var array
@@ -29,7 +29,7 @@ class Route
     private $route;
 
     /**
-     * Route constructor.
+     * FriendlyUrl constructor.
      */
     public function __construct()
     {

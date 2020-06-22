@@ -1,6 +1,6 @@
 {
-    "name": "coffeebreaks/route",
-    "type": "metapackage",
+    "name": "coffeebreaks/friendly-url",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -21,6 +21,6 @@
        "router", "route", "friendly url"
     ],
     "extra": {
-        "frameworks": ["laravel", "symfony", "codeigniter", "zend"]
+        "frameworks": ["laravel", "symfony", "codeigniter", "zend", "lumen"]
     }
 }
