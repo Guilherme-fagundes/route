@@ -5,10 +5,10 @@ namespace coffeebreaks;
 
 
 /**
- * Class FriendlyUrl
+ * Class Uri
  * @package coffeebreaks
  */
-class FriendlyUrl
+class Uri
 {
     /**
      * @var array
@@ -28,8 +28,9 @@ class FriendlyUrl
      */
     private $route;
 
+
     /**
-     * FriendlyUrl constructor.
+     * Uri constructor.
      */
     public function __construct()
     {
@@ -37,14 +38,15 @@ class FriendlyUrl
 
         $this->url = explode('/', $url);
 
-         $this->url[0] = ($this->url[0] == '' ? 'index' : $this->url[0]);
-         @$this->url[1] = ($this->url[1] ? $this->url[1] : null);
+        $this->url[0] = ($this->url[0] == '' ? 'index' : $this->url[0]);
+        @$this->url[1] = ($this->url[1] ? $this->url[1] : null);
 
-         $this->folder = $this->url[0];
-         $this->file = $this->url[1];
+        $this->folder = $this->url[0];
+        $this->file = $this->url[1];
 
 
     }
+
 
     /**
      * @return mixed
@@ -72,24 +74,23 @@ class FriendlyUrl
     }
 
 
-
-
     /**
      *
      */
     private function set()
     {
 
-        if (file_exists(INCLUDE_PATH.DIRECTORY_SEPARATOR. $this->folder.'.php')){
-             $this->route = INCLUDE_PATH.DIRECTORY_SEPARATOR. $this->folder.'.php';
+        if (file_exists(INCLUDE_PATH . DIRECTORY_SEPARATOR . $this->folder . '.php')) {
+            $this->route = INCLUDE_PATH . DIRECTORY_SEPARATOR . $this->folder . '.php';
 
-        }elseif(file_exists(INCLUDE_PATH.DIRECTORY_SEPARATOR. $this->folder.DIRECTORY_SEPARATOR.$this->file.'.php')){
-             $this->route = INCLUDE_PATH.DIRECTORY_SEPARATOR. $this->folder.DIRECTORY_SEPARATOR.$this->file.'.php';
+        } elseif (file_exists(INCLUDE_PATH . DIRECTORY_SEPARATOR . $this->folder . DIRECTORY_SEPARATOR . $this->file . '.php')) {
+            $this->route = INCLUDE_PATH . DIRECTORY_SEPARATOR . $this->folder . DIRECTORY_SEPARATOR . $this->file . '.php';
 
-        }else{
-             $this->route = INCLUDE_PATH.DIRECTORY_SEPARATOR.'404.php';
+        } else {
+            $this->route = INCLUDE_PATH . DIRECTORY_SEPARATOR . '404.php';
         }
 
     }
+
 
 }
