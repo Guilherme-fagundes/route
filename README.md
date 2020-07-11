@@ -1,11 +1,11 @@
 
 
-### Friendly Url
+### Url
 <p>This class performs the route function</p>
 
 #### Instalation
 ```bash
-composer require coffeebreaks/route
+composer require coffeebreaks/uri
 ```
 
 #### Config.php
