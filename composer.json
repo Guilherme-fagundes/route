@@ -1,5 +1,6 @@
 {
     "name": "coffeebreaks/url",
+    "description": "A simple class for friendly url",
     "type": "library",
     "license": "MIT",
     "authors": [
