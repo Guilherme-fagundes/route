@@ -5,7 +5,7 @@
 
 #### Instalation
 ```bash
-composer require coffeebreaks/url
+composer require coffeebreaks/route
 ```
 
 #### Config.php
