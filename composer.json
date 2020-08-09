@@ -1,5 +1,5 @@
 {
-    "name": "coffeebreaks/url",
+    "name": "coffeebreaks/route",
     "description": "A simple class for friendly url",
     "type": "library",
     "license": "MIT",
@@ -20,8 +20,5 @@
     },
     "keywords": [
        "router", "route", "friendly url"
-    ],
-    "extra": {
-        "frameworks": ["laravel", "symfony", "codeigniter", "zend", "lumen"]
-    }
+    ]
 }

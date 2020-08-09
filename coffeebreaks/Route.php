@@ -5,10 +5,10 @@ namespace coffeebreaks;
 
 
 /**
- * Class Uri
+ * Class Route
  * @package coffeebreaks
  */
-class Uri
+class Route
 {
     /**
      * @var array
@@ -30,7 +30,7 @@ class Uri
 
 
     /**
-     * Uri constructor.
+     * Route constructor.
      */
     public function __construct()
     {
@@ -45,23 +45,6 @@ class Uri
         $this->file = $this->url[1];
 
 
-    }
-
-
-    /**
-     * @return mixed
-     */
-    public function getFolder()
-    {
-        return $this->folder;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getFile()
-    {
-        return $this->file;
     }
 
     /**

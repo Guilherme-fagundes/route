@@ -1,7 +1,7 @@
 
 
-### Url
-<p>This class performs the route function</p>
+### Route
+<p>A simple class for friendly url</p>
 
 #### Instalation
 ```bash
